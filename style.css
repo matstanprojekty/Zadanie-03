@@ -1,0 +1,25 @@
+#tabela {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.date {
+    height: 25px;
+    width: 50px;
+}
+
+tr:first-child {
+    height: 25px;
+    background-color: lightblue;
+}
+
+td:first-child {
+    background-color: lightblue;
+    width: 25px;
+}
+
