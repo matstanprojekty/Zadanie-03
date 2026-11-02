@@ -1,0 +1,33 @@
+table {
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: lightblue;
+    border: solid 1px black;
+    height: 20px;
+    width: 50px; 
+}
+
+th:first-child {
+    width: 20px;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    border: solid 1px black;
+}
+
+.light-green {
+    background-color: #9aff91;
+}
+.medium-green {
+    background-color: #3cc043;
+}
+.dark-green {
+    background-color: #40793a;
+}
